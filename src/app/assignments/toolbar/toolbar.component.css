@@ -1,0 +1,16 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.custom-toolbar {
+  background-color: rgb(15, 138, 122);
+}
+
+.black-text {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.white-icon {
+  color: rgb(255, 255, 255);
+}

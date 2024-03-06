@@ -1,14 +1,18 @@
+
+<app-sidebar-menu></app-sidebar-menu>
+<div class="main-content">
 <app-navbar></app-navbar>
-<h1>
-  <nav>
-    <a routerLink="/home">{{title}}</a>
-  </nav>
-</h1>
-<mat-slide-toggle (click)="login()" color="primary">Login</mat-slide-toggle>
-<button mat-button (click)="genererDonneesDeTest()">Peupler BD</button>
+<app-toolbar></app-toolbar>
+  <!-- <h1>
+    <nav>
+      <a routerLink="/home">{{title}}</a>
+    </nav>
+  </h1> -->
+  <mat-slide-toggle (click)="login()" color="primary">Login</mat-slide-toggle>
+  <button mat-button (click)="genererDonneesDeTest()">Peupler BD</button>
 
-<router-outlet></router-outlet>
-<!--
-<app-assignments></app-assignments>
--->
-
+  <router-outlet></router-outlet>
+  <!--
+  <app-assignments></app-assignments>
+  -->
+</div>

@@ -1,0 +1,19 @@
+<div class="sidebar">
+  <ul class="sidebar-menu">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="toggleMenu()">
+      <mat-icon class="white-icon">menu</mat-icon>
+    </button>
+    <li><a href="#" class="sidebar-link"><i class="fas fa-home"></i> Accueil</a></li>
+    <li class="dropdown">
+      <a href="#" class="sidebar-link has-dropdown" (mouseover)="toggleDropdown(true)" (mouseleave)="toggleDropdown(false)">
+        <i class="fas fa-users"></i> Etudiants
+        <i class="fas" style="margin-left: 85px;" [ngClass]="isDropdownOpen ? 'fa-angle-down' : 'fa-angle-right'"></i>
+      </a>
+
+    </li>
+    <li><a href="#" class="sidebar-link"><i class="fas fa-chalkboard"></i> Gestion des classes</a></li>
+    <li><a href="#" class="sidebar-link"><i class="fas fa-bell"></i> Notifications</a></li>
+    <li><a href="#" class="sidebar-link"><i class="fas fa-cog"></i> Paramètres du système</a></li>
+  </ul>
+</div>
+

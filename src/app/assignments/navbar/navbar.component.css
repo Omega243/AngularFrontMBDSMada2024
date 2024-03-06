@@ -43,3 +43,14 @@
 .search-button {
   margin-left: 5px;
 }
+
+.custom-btn-outline {
+  color: rgb(15, 138, 122);
+  border-color: rgb(15, 138, 122);
+  background-color: transparent;
+}
+
+.custom-btn-outline:hover {
+  color: #ffffff;
+  background-color: rgb(15, 138, 122); 
+}
