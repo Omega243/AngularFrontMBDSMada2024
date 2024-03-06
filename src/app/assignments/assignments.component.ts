@@ -12,6 +12,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatTable, MatTableModule } from '@angular/material/table';
 import { PageEvent, MatPaginatorModule } from '@angular/material/paginator';
 
+// import { NavbarComponent } from './navbar/navbar.component';
+
 import { RenduDirective } from '../shared/rendu.directive';
 import { Assignment } from './assignment.model';
 import { AssignmentDetailComponent } from './assignment-detail/assignment-detail.component';
@@ -39,6 +41,7 @@ import { filter, map, pairwise, tap, throttleTime } from 'rxjs/operators';
     RenduDirective,
     AssignmentDetailComponent,
     AddAssignmentComponent,
+    // NavbarComponent
   ],
 })
 export class AssignmentsComponent implements OnInit {

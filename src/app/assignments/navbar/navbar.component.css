@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #333;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item-left {
+  float: left;
+}
+
+.nav-item-right {
+  float: right;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.custom-search {
+  display: flex;
+}
+
+.search-input {
+  margin-right: 5px;
+}
+
+.search-button {
+  margin-left: 5px;
+}
