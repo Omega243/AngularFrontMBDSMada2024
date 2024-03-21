@@ -55,4 +55,8 @@ export class AppComponent {
       // this.router.navigate(['/home'], {replaceUrl:true});
     });
   }
+
+  isLoginPage(): boolean {
+    return this.router.url === '/signin';
+  }
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="row justify-content-center align-items-center vh-100">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header text-center">
+          <img src="assets/img/logo2.png" alt="Logo" class="img-fluid mb-3" style="max-width: 200px;">
+          <h3>Connexion</h3>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="email">Adresse email</label>
+              <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Mot de passe</label>
+              <div class="input-group">
+                <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe" required>
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">
+                    <i class="fa fa-eye"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn custom-color-btn btn-block connect-btn">Se connecter</button>
+          </form>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="forgot-password-link">Mot de passe oublié ?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

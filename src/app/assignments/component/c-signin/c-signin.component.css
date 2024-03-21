@@ -1,0 +1,67 @@
+/* body, html {
+  height: 700%;
+}
+
+.container-fluid {
+  height: 700%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 700%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-group-append button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-block {
+  width: 100%;
+} */
+
+.card {
+  width: 120%;
+  max-width: 700px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(89, 15, 138, 0.3), 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.connect-btn {
+  transition: background-color 0.3s;
+}
+
+.connect-btn:hover {
+  background-color: black;
+}
+
+.custom-color-btn {
+  background-color: rgb(89, 15, 138);
+  border-color: rgb(89, 15, 138);
+  color: #ffffff;
+}
+
+.forgot-password-link {
+  color: rgb(89, 15, 138);
+}
