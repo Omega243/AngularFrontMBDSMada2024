@@ -41,3 +41,10 @@ table, tr, td {
 .example-item {
   height: 50px;
 }
+
+#tablefooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
